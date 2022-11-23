@@ -1,1 +1,0 @@
-gcc -O -DSTREAM_ARRAY_SIZE=100000000 stream.c -o stream.100M
