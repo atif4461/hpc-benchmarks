@@ -1,0 +1,7 @@
+export OMP_NUM_THREADS=1
+export OMP_DISPLAY_ENV=true
+export OMP_DISPLAY_AFFINITY=true
+export OMP_AFFINITY_FORMAT="Thread Affinity: %0.3L %.8n %.15{thread_affinity} %.12H"
+export OMP_PROC_BIND=true
+export OMP_PLACES=cores
+mpiexec -n $1 ./stream_mpi.out

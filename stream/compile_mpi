@@ -1,0 +1,1 @@
+mpicc -O -DSTREAM_ARRAY_SIZE=400000000 stream_mpi.c -o stream_mpi.out
